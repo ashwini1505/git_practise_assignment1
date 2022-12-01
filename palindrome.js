@@ -1,14 +1,15 @@
-let bag=""
+let num = 1221;
+let bag= ""
 
-let num1=num.toString()
+let num1 =num.toString()
 
 
-for (i=num1.length-1;i>=0;i--){
+for (let i= num1.length-1; i>=0; i--){
  
    bag+=num1[i]
   
  
-}if (bag!==num1){
+}if (bag==num1){
 
     console.log("Yes")
 
