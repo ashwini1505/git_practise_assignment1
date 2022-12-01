@@ -1,9 +1,11 @@
 let factors=0
-for (let i=1;i<=13;i++){
-if (13%i==0){
-factor++
+let num = 13
+for (let i=1;i<=num;i++){
+if (num % i ==0){
+factors++
 }
-}if (factor==2){
-console.log(prime)
+}if (factors==2){
+console.log(num, "is prime");
 }else {
-console.log(not a prime)
+console.log(num, "is not a prime");
+}
